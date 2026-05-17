@@ -47,7 +47,7 @@ system, you are not ready to submit it. This is the line, and it does not
 move.
 
 For this reason, commits with `Co-Authored-By:` or similar fields that 
-reference a model stating that it is _also_ the author is not acceptable. You
+reference a model stating that it is _also_ the author are not acceptable. You
 are fully accountable for your code, and your commits should say as much.
 However, AI assistance should be properly disclosed as explained in the 
 following section.
