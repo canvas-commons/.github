@@ -46,11 +46,17 @@ cannot explain what your change does and how it interacts with the rest of the
 system, you are not ready to submit it. This is the line, and it does not
 move.
 
+For this reason, commits with `Co-Authored-By:` or similar fields that 
+reference a model stating that it is _also_ the author is not acceptable. You
+are fully accountable for your code, and your commits should say as much.
+However, AI assistance should be properly disclosed as explained in the 
+following section.
+
 Do not vibe code into this repository. Prompting until the behavior looks
-right and submitting the result without reading it is not contribution; it is
-handing the maintainers a black box and asking them to audit it. Project code
-gets maintained for years by people who are not you. It needs to be understood
-by a human before it lands, and that human is you.
+right and submitting the result without is handing the maintainers a black box 
+and asking them to audit it. Project code gets maintained for years by people 
+who are not you. It needs to be understood by a human before it lands, and 
+that human is you.
 
 ## Disclosure is required
 
@@ -100,9 +106,8 @@ project accepts.
 
 ## Open an issue first, and wait for a green light
 
-Unless the change is trivial — a typo, an obviously broken variable, a
-one-line doc fix — open an issue before you write code. The issue should
-describe the change you intend to make and why.
+Unless the change is trivial, open an issue before you write code. The issue
+should describe the change you intend to make and why.
 
 Then wait. A maintainer needs to review the issue and signal that the work is
 wanted before you start. This protects you as much as the project: it is much
@@ -150,16 +155,14 @@ newcomers, leave the issues for them; mentoring is more useful than solving.
 ## Maintainers
 
 These rules govern outside contributions. Maintainers may use AI tools at
-their discretion; they have already shown the judgment this policy is trying
-to verify in everyone else. That is a statement of earned trust, not a
-loophole, and it is the only exemption here.
+their discretion. That is a statement of earned trust, and is the only 
+exemption here.
 
 ## Licensing and provenance
 
 However your code came to be, the project's contribution terms apply, and you
 are responsible for not introducing code copied from an incompatibly licensed
-source. AI assistance does not change that obligation; it just adds one more
-way for tainted code to reach you. Take reasonable care.
+source. AI assistance does not change that obligation. Take reasonable care.
 
 ## Enforcement
 
