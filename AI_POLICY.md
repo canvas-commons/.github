@@ -61,7 +61,8 @@ commit message and the PR description, at minimum as a trailer:
 
 Name the tool and, ideally, a sentence or two on how you used it — scaffolding,
 a refactor, test generation, whatever it was. A full prompt log is not wanted.
-A short, honest description is.
+A short, honest description is. This aids in education, replicability, and
+transparency, helping newer contributors learn how to use tools responsibly.
 
 Disclosure means a second reviewer knows to look a little harder at code the
 author did not write by hand, it lets the project compare assisted and
