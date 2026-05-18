@@ -61,7 +61,7 @@ that human is you.
 ## Disclosure is required
 
 If an AI tool did substantive work on a contribution, say so. Put it in the
-commit message and the PR description, at minimum as a trailer:
+commit message as a trailer:
 
     Assisted-by: Claude Code
 
@@ -69,6 +69,9 @@ Name the tool and, ideally, a sentence or two on how you used it — scaffolding
 a refactor, test generation, whatever it was. A full prompt log is not wanted.
 A short, honest description is. This aids in education, replicability, and
 transparency, helping newer contributors learn how to use tools responsibly.
+
+Additionally, the PR template will ask you to disclose the use of an AI tool.
+Undisclosed use will be considered a violation of the policy.
 
 Disclosure means a second reviewer knows to look a little harder at code the
 author did not write by hand, it lets the project compare assisted and
@@ -81,9 +84,6 @@ Smart autocomplete, spell check, and grammar check do not count and do not
 need disclosure. The line is substantive authorship: if the tool produced
 logic, prose, or structure you are submitting, disclose it. If you are not
 sure which side of the line you are on, disclose it.
-
-Additionally, the PR template will ask you to disclose the use of an AI tool.
-Undisclosed use will be considered a violation of the policy.
 
 ## A human interacts with the project, not an agent
 
